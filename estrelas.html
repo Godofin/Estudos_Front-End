@@ -1,0 +1,24 @@
+<meta charset = "UTF-8">
+
+<script>
+	
+	function mostra(frase){// cria função mostrar
+	
+		document.write(frase);
+		pulaLinha();
+	
+	}
+	function pulaLinha(){//Cria função	pula linha
+		
+		document.write("<br>");
+		//document.write("<br>");
+	}
+	for(var Linha=1; Linha<=3; Linha++){
+		for(var coluna = 1; coluna <=10; coluna++){
+			document.write("*");
+		}
+		
+		pulaLinha();
+	}
+	
+</script>
